@@ -57,8 +57,8 @@ const Home = () => {
         animate-pulse delay-300
         '></div>
       </div>
-      <div className="relative z-10 h-full w-full max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2">
-        <div className="flex flex-col justify-center h-full text-center lg:text-left relative">
+      <div className="relative overflow-hidden z-10 h-full w-full max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2">
+        <div className="flex overflow-hidden flex-col justify-center h-full text-center lg:text-left relative">
           <div className="w-full lg:pr-24 mx-auto max-w-[48] mt-20 md:mt-8">
             <motion.div initial={{opacity:0,y:20}} animate={{opacity:1,y:0}} transition={{duration:0.6,delay:2}} className='mb-3 text-lg sm:text-xl md:text-2xl lg:text-3xl text-white font-semibold tracking-wide min-h-[1.6em]'>
             <span className='text-linear-to-r from-orange-400 via-purple-600 to-red-600 animate-bounce'>

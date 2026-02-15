@@ -74,7 +74,7 @@ const Contact = () => {
               <input value={formData.email} onChange={handleChange} placeholder='enter email' className='p-2 border-2 h-10 border-white rounded-lg' type="email" name="email" id="email" />
               {errors.email && <span className='text-red-600 text-sm'>{errors.email}</span>}
               <label className='text-xl font-semibold' htmlFor="project">Project <span className='text-red-600'>*</span></label>
-              <select value={formData.project} onChange={handleChange} className='border-2 h-10 border-white rounded-lg' name="project" id="project">
+              <select value={formData.project} onChange={handleChange} className='border-2 h-10 border-white rounded-lg' name="service" id="project">
                 <option className='text-black' value="" disabled>Select Project</option>
                 <option className='text-black' value="Web Development">Web Development</option>
                 <option className='text-black' value="App Development">App Development</option>
