@@ -33,7 +33,7 @@ const Home = () => {
     return ()=>clearTimeout(timeout);
 },[index,subIndex,deleting]);
   return (
-    <motion.section initial={{opacity:0}} animate={{opacity:1}} transition={{duration:3}} id='home' className='w-full min-h-screen bg-neutral-950 relative overflow-hidden'>
+    <motion.section initial={{opacity:0}} animate={{opacity:1}} transition={{duration:3}} id='home' className='w-full h-screen bg-neutral-950 relative overflow-hidden'>
       <ParticlesBackground/>
       <CustomCursor/>
       <div className="absolute inset-0">
