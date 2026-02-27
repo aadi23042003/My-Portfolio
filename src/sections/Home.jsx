@@ -57,7 +57,7 @@ const Home = () => {
         animate-pulse delay-300
         '></div>
       </div>
-     <div className='mt-20 md:mt-16 flex justify-center items-center h-[90vh]'>
+     <div className='mt-12 md:mt-16 flex justify-center items-center h-[90vh]'>
       <div className='flex ps-8 flex-col w-[100%] md:w-[50%] h-[100%] justify-center items-center p-3'>
         <h1 className='text-white text-2xl md:3xl font-semibold'>{roles[index].substring(0,subIndex)} <span className='text-white text-3xl'>|</span></h1>
         <h1 className='text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-4'>Hi, I'm</h1>
@@ -70,7 +70,7 @@ const Home = () => {
         </div>
       </div>
       <div className='justify-center items-center hidden md:flex md:w-[50%] h-[100%] bg-transparent'>
-        <motion.img src={avatar} alt="My Avatar" className='w-[50%] h-[60%] lg:h-[70%]' />
+        <motion.img src={avatar} alt="My Avatar" className='w-84 h-[70vh] object-cover' />
       </div>
      </div>
     </motion.section>
