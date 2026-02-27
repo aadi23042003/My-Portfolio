@@ -75,7 +75,7 @@ const Contact = () => {
               {errors.email && <span className='text-red-600 text-sm'>{errors.email}</span>}
               <label className='text-xl font-semibold' htmlFor="project">Project <span className='text-red-600'>*</span></label>
               <select value={formData.project} onChange={handleChange} className='border-2 h-10 border-white rounded-lg' name="project" id="project">
-                <option className='text-black' value="none" disabled>Select Project</option>
+                <option className='text-black' value="" disabled>Select Project</option>
                 <option className='text-black' value="Web Development">Web Development</option>
                 <option className='text-black' value="App Development">App Development</option>
                 <option className='text-black' value="UI/UX Design">UI/UX Design</option>
