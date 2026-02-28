@@ -73,7 +73,7 @@ const Home = () => {
 
         <motion.img src={avatar} alt="My Avatar" className='w-84 h-[70%] object-cover' />
 
-        <motion.img src={avatar} alt="My Avatar" className='w-84 h-[70%] object-cover' />
+        
 
       </div>
      </div>
