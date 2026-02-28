@@ -65,7 +65,7 @@ const Home = () => {
         <p className='text-lg text-white'>I am a passionate Full-Stack Developer with expertise in building dynamic and responsive web applications. With a strong foundation in both frontend and backend technologies, I create seamless user experiences and robust server-side solutions.</p>
       
         <div className='flex gap-4 mt-6'>
-          <a download href="./Aditya_Rao_Resume.docx" className='p-2 cursor-pointer font-semibold hover:scale-110 bg-blue-600 rounded-full text-white shadow-lg'>My Resume</a>
+          <a download href="./Aditya_Rao_Resume21.pdf" className='p-2 cursor-pointer font-semibold hover:scale-110 bg-blue-600 rounded-full text-white shadow-lg'>My Resume</a>
           <a href="https://github.com/aadi23042003?tab=repositories" target='_blank'><motion.img src={github} alt="GitHub Logo" className='w-8 h-8 p-1 bg-blue-900 rounded shadow-2xl'/></a>
         </div>
       </div>
