@@ -70,7 +70,11 @@ const Home = () => {
         </div>
       </div>
       <div className='justify-center items-center hidden md:flex md:w-[50%] h-[100%] bg-transparent'>
+<<<<<<< HEAD
         <motion.img src={avatar} alt="My Avatar" className='w-84 h-[70%] object-cover' />
+=======
+        <motion.img src={avatar} alt="My Avatar" className='w-84 h-[70%] object-cover' />
+>>>>>>> 84cda33dde16a0f8e728a7f9943a2d7f9a1a508c
       </div>
      </div>
     </motion.section>
