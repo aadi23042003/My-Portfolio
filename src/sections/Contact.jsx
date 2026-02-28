@@ -64,7 +64,7 @@ const Contact = () => {
         <motion.img initial={false} animate={{x:0,y:0}} transition={{duration:1.5,repeat:Infinity,repeatType:"reverse",ease:'easeInOut'}}
    src={Astra} alt="Astra Logo" className='w-64 h-96 relative rotate-x-180 img'/>
       </div>
-      <div className='bg-white/10 p-3 rounded-lg flex flex-col opacity-90 min-h-[50vh] lg:min-h-[70vh] w-[80%] md:w-[40%] relative md:absolute md:left-1/2 mt-4 md:mt-12 mb-8'>
+      <div className='bg-white/10 p-3 rounded-lg flex flex-col opacity-90 min-h-[40vh] lg:min-h-[70vh] w-[80%] md:w-[40%] relative md:absolute md:left-1/2 mt-4 md:mt-12 mb-8'>
         <h1 className='text-3xl mx-auto font-bold text-transparent bg-linear-to-r from-pink-500 via-pink-800 to-purple-700 bg-clip-text'>Contact Me</h1>
         <form action="" className='flex flex-col gap-3' onSubmit={handleSubmit}>
               <label className='text-xl font-semibold' htmlFor="name">Name <span className='text-red-600'>*</span></label>
