@@ -8,7 +8,7 @@ const OverlayMenu = ({isOpen, onClose}) => {
           <button className='absolute top-6 right-6 text-white text-3xl focus:outline-none cursor-pointer' onClick={onClose}>&times;</button>
           <ul className='space-y-6 text-center'>
           {[
-            'Home',
+            '',
             'About',
             'Skills',
             'Projects',
