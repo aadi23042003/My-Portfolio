@@ -24,8 +24,8 @@ const About = () => {
           <h2 className='text-cyan-200 text-xl lg:text-xl'>Full Stack Developer</h2>
           <p className='text-gray-300 hidden md:block text-base'>A driven and detail-oriented Web Developer with hands-on experience in building, testing, and deploying full-stack web applications. Proficient in backend development using Python and the Django framework, complemented by strong frontend skills in HTML, CSS, JavaScript, Bootstrap, Tailwindcss and Reactjs. Possesses practical, real-world experience from a web development internship, demonstrating a strong capacity for problem-solving and a proven ability to translate project requirements into clean, efficient code .</p>
           <div className='hidden md:flex gap-8 mt-3'>
-            <a href="#projects" className='text-green-100 hover:text-cyan-200 bg-blue-700 p-2 rounded-lg font-semibold'>View Projects</a>
-            <a href="#skills" className='text-black hover:text-neutral-400 font-semibold ml-4 bg-white p-2 rounded-lg'>View Skills</a>
+            <a href="#projects" className='text-green-100 hover:scale-110 bg-blue-700 p-2 rounded-lg font-semibold'>View Projects</a>
+            <a href="#skills" className='text-black hover:scale-110 font-semibold ml-4 bg-white p-2 rounded-lg'>View Skills</a>
           </div>
         </motion.div>
       </div>
