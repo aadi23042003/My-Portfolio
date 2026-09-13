@@ -1,6 +1,7 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react'
 import pro1 from '../assets/pro1.png'
 import pro2 from '../assets/pro2.png'
+import pro3 from '../assets/pro3.png'
 import { AnimatePresence, useMotionValueEvent, useScroll,motion } from 'motion/react';
 import { h3 } from 'motion/react-client';
 const useMobile=(query=('max-width:768px'))=>{
@@ -23,6 +24,13 @@ const Projects = () => {
   const isMobile=useMobile();
   const screenRef=useRef(null);
   const projects=useMemo(()=>[
+    {
+      title:'Medical Health Assistant',
+      link:'https://adityarao23.in/',
+      bgColor:'bg-linear-to-r from-neutral-800 via-neutral-900 to-neutral-800',
+      image:pro3,
+
+    },
     {
       title:'Online Book Store',
       link:'https://aadi23042003.pythonanywhere.com/',
