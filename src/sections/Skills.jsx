@@ -7,7 +7,8 @@ import { IoLogoReact } from 'react-icons/io5'
 import { RiTailwindCssFill } from 'react-icons/ri'
 import { SiMysql } from 'react-icons/si'
 import { TiHtml5 } from 'react-icons/ti'
-
+import { FaDocker } from "react-icons/fa";
+import { SiScikitlearn } from "react-icons/si";
 const Skills = () => {
   let skills=[
     {name:'HTML',icon:<TiHtml5 />},
@@ -20,6 +21,8 @@ const Skills = () => {
     {name:'Django',icon:<DiDjango />},
     {name:'Github',icon:<FaGithub />},
     {name:'MySQL',icon:<SiMysql />},
+    {name:'Docker',icon:<FaDocker />},
+    {name:'Scikit Learn',icon:<SiScikitlearn/>}
   ]
   const repeat=[...skills,...skills];
   const [dir,setDir]=useState(-1)
